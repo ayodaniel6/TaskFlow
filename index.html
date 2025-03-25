@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Task Manager</title>
+
+		<script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js"></script>
+		<link rel="stylesheet" href="style.css" />
+		<script src="manager.js" defer></script>
+	</head>
+	<body>
+		<div class="container">
+			<h1>Task Manager</h1>
+
+			<!-- Add calendar container -->
+			<div id="calendar" style="margin: 20px 0; display: none"></div>
+			<button id="toggleCalendar">Toggle Calendar View</button>
+
+			<!-- Task input form -->
+			<form id="taskForm">
+				<input
+					type="text"
+					id="taskTitle"
+					placeholder="Title"
+					required />
+				<textarea
+					id="taskDescription"
+					placeholder="Description"></textarea>
+				<input type="date" id="taskDueDate" required />
+				<select id="taskPriority">
+					<option value="low">Low</option>
+					<option value="medium">Medium</option>
+					<option value="high">High</option>
+				</select>
+				<button type="submit">Add task</button>
+			</form>
+
+			<div class="controls">
+				<div class="filters">
+					<button class="filter-btn active" data-filter="all">
+						All
+					</button>
+					<button class="filter-btn" data-filter="completed">
+						Completed
+					</button>
+					<button class="filter-btn" data-filter="pending">
+						Pending
+					</button>
+				</div>
+
+				<div class="sorting">
+					<label>Sort by:</label>
+					<select id="sortBy">
+						<option value="priority">Priority</option>
+						<option value="dueDate">Due Date</option>
+					</select>
+				</div>
+			</div>
+
+			<!-- Task List -->
+			<div id="taskList" class="draggable-list"></div>
+		</div>
+	</body>
+</html>
