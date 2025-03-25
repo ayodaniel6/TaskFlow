@@ -26,7 +26,7 @@
 - **Calendar**: FullCalendar.io  
 - **Backend**: *Planned – Node.js/Django Integration*  
 
-🔗 **Live Demo**: [Link to Demo]  
+🔗 **Live Demo**: [[Link to Demo]](https://ayodaniel6.github.io/TaskFlow/)  
 📸 **Screenshots**: ![screencapture-127-0-0-1-8080-Task-Manager-2025-03-25-01_24_49](https://github.com/user-attachments/assets/0638ba55-1b94-4912-96b3-7c5be43ba1f0) || ![screencapture-127-0-0-1-8080-Task-Manager-2025-03-25-01_24_11](https://github.com/user-attachments/assets/b739bc46-35c9-4578-a593-ea6c45e9c67b)
 
 ### **Get Involved!**  
