@@ -35,6 +35,6 @@
 
 📥 **Installation**  
 ```bash
-git clone [repo-link]
+git clone git@github.com:ayodaniel6/TaskFlow.git
 npm install # For future backend setup
 ```
